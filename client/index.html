@@ -1,13 +1,25 @@
 <!DOCTYPE html>
+
 <html>
   <head>
     <title>Back End Assessment</title>
   </head>
   <body class="container">
+    <link rel="stylesheet" href="styleSheet.css">
     <button id="complimentButton">Get a compliment</button>
+    <button id="fortuneButton">Get a Fortune</button>
+    <button id="dogPicButton">Click for your Dog Picture</button>
+    <button id="catFactButton">Click for your random Cat fact</button>
+    
+    <form>
+      <div id=question >What makes you confident that you can acheive your goals?</div>
+      <div><input id="textbox" placeholder="Type Here" type="text-box"  > <button>Submit</button></div>
+    </form>
+    <section id="textContainer"></section>
+    <section id="dogImg"></section>
+    <section id="catFact"></section>
 
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="main.js"></script>
-    
   </body>
 </html>
